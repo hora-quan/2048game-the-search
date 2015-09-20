@@ -200,10 +200,7 @@ p {
   line-height: 1.65; }
 
 a {
-  color: <div class="info">
-       <center style="color:#c7a317; font-size:9pt;">Use arrow keys to combine similar images. Unlock the final image and you win.  </center>
-       <br>
-       <center  style="color:#800517; font-size:6pt;"> Modified from 2048 by Gabriele Cirulli and DOGE2048 by Tiny Mammals. Characters belong to Michael Dante DiMartino and Bryan Konietzko.</center>
+  color:
    #800517;
   font-weight: bold;
   text-decoration: underline;
@@ -418,60 +415,39 @@ hr {
     z-index: 10;
     font-size: 55px; }
   .tile.tile-2 .tile-inner {
-    background: <div class="info">
-       <center style="color:#c7a317; font-size:9pt;">Use arrow keys to combine similar images. Unlock the final image and you win.  </center>
-       <br>
-       <center  style="color:#800517; font-size:6pt;"> Modified from 2048 by Gabriele Cirulli and DOGE2048 by Tiny Mammals. Characters belong to Michael Dante DiMartino and Bryan Konietzko.</center>
+    background:
    #800517 url('../Tiles/2.jpg');
     background-size: cover;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
     
   .tile.tile-4 .tile-inner {
-    background: <div class="info">
-       <center style="color:#c7a317; font-size:9pt;">Use arrow keys to combine similar images. Unlock the final image and you win.  </center>
-       <br>
-       <center  style="color:#800517; font-size:6pt;"> Modified from 2048 by Gabriele Cirulli and DOGE2048 by Tiny Mammals. Characters belong to Michael Dante DiMartino and Bryan Konietzko.</center>
+    background:
    #800517 url('../Tiles/4.jpg');
     background-size: cover;    
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
     
   .tile.tile-8 .tile-inner {
-    background: <div class="info">
-       <center style="color:#c7a317; font-size:9pt;">Use arrow keys to combine similar images. Unlock the final image and you win.  </center>
-       <br>
-       <center  style="color:#800517; font-size:6pt;"> Modified from 2048 by Gabriele Cirulli and DOGE2048 by Tiny Mammals. Characters belong to Michael Dante DiMartino and Bryan Konietzko.</center>
+    background:
    #800517 url('../Tiles/8.jpg');
     background-size: cover;}
     
   .tile.tile-16 .tile-inner {
-    background: <div class="info">
-       <center style="color:#c7a317; font-size:9pt;">Use arrow keys to combine similar images. Unlock the final image and you win.  </center>
-       <br>
-       <center  style="color:#800517; font-size:6pt;"> Modified from 2048 by Gabriele Cirulli and DOGE2048 by Tiny Mammals. Characters belong to Michael Dante DiMartino and Bryan Konietzko.</center>
+    background:
    #800517 url('../Tiles/16.jpg');
     background-size: cover;}
     
   .tile.tile-32 .tile-inner {
-    background: <div class="info">
-       <center style="color:#c7a317; font-size:9pt;">Use arrow keys to combine similar images. Unlock the final image and you win.  </center>
-       <br>
-       <center  style="color:#800517; font-size:6pt;"> Modified from 2048 by Gabriele Cirulli and DOGE2048 by Tiny Mammals. Characters belong to Michael Dante DiMartino and Bryan Konietzko.</center>
+    background:
    #800517 url('../Tiles/32.jpg');
     background-size: cover;}
     
   .tile.tile-64 .tile-inner {
-    background: <div class="info">
-       <center style="color:#c7a317; font-size:9pt;">Use arrow keys to combine similar images. Unlock the final image and you win.  </center>
-       <br>
-       <center  style="color:#800517; font-size:6pt;"> Modified from 2048 by Gabriele Cirulli and DOGE2048 by Tiny Mammals. Characters belong to Michael Dante DiMartino and Bryan Konietzko.</center>
+    background:
    #800517 url('../Tiles/64.jpg');
     background-size: cover;}
     
   .tile.tile-128 .tile-inner {
-    background: <div class="info">
-       <center style="color:#c7a317; font-size:9pt;">Use arrow keys to combine similar images. Unlock the final image and you win.  </center>
-       <br>
-       <center  style="color:#800517; font-size:6pt;"> Modified from 2048 by Gabriele Cirulli and DOGE2048 by Tiny Mammals. Characters belong to Michael Dante DiMartino and Bryan Konietzko.</center>
+    background:
    #800517 url('../Tiles/128.jpg');
     background-size: cover;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
@@ -480,11 +456,7 @@ hr {
       .tile.tile-128 .tile-inner {
         font-size: 25px; } }
   .tile.tile-256 .tile-inner {
-
-    background: <div class="info">
-       <center style="color:#c7a317; font-size:9pt;">Use arrow keys to combine similar images. Unlock the final image and you win.  </center>
-       <br>
-       <center  style="color:#800517; font-size:6pt;"> Modified from 2048 by Gabriele Cirulli and DOGE2048 by Tiny Mammals. Characters belong to Michael Dante DiMartino and Bryan Konietzko.</center>
+    background:
    #800517 url('../Tiles/256.jpg');
     background-size: cover;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
@@ -494,10 +466,7 @@ hr {
         font-size: 25px; } }
   .tile.tile-512 .tile-inner {
 
-    background: <div class="info">
-       <center style="color:#c7a317; font-size:9pt;">Use arrow keys to combine similar images. Unlock the final image and you win.  </center>
-       <br>
-       <center  style="color:#800517; font-size:6pt;"> Modified from 2048 by Gabriele Cirulli and DOGE2048 by Tiny Mammals. Characters belong to Michael Dante DiMartino and Bryan Konietzko.</center>
+    background:
    #800517 url('../Tiles/512.jpg');
     background-size: cover;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
@@ -506,10 +475,7 @@ hr {
       .tile.tile-512 .tile-inner {
         font-size: 25px; } }
   .tile.tile-1024 .tile-inner {
-    background: <div class="info">
-       <center style="color:#c7a317; font-size:9pt;">Use arrow keys to combine similar images. Unlock the final image and you win.  </center>
-       <br>
-       <center  style="color:#800517; font-size:6pt;"> Modified from 2048 by Gabriele Cirulli and DOGE2048 by Tiny Mammals. Characters belong to Michael Dante DiMartino and Bryan Konietzko.</center>
+    background:
    #800517 url('../Tiles/1024.jpg');
     background-size: cover;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
@@ -519,10 +485,7 @@ hr {
         font-size: 15px; } }
   .tile.tile-2048 .tile-inner {
 
-    background: <div class="info">
-       <center style="color:#c7a317; font-size:9pt;">Use arrow keys to combine similar images. Unlock the final image and you win.  </center>
-       <br>
-       <center  style="color:#800517; font-size:6pt;"> Modified from 2048 by Gabriele Cirulli and DOGE2048 by Tiny Mammals. Characters belong to Michael Dante DiMartino and Bryan Konietzko.</center>
+    background:
    #800517 url('../Tiles/2048.jpg');
     background-size: cover;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
@@ -531,11 +494,6 @@ hr {
       .tile.tile-2048 .tile-inner {
         font-size: 15px; } }
   .tile.tile-super .tile-inner {
-
-    background: <div class="info">
-       <center style="color:#c7a317; font-size:9pt;">Use arrow keys to combine similar images. Unlock the final image and you win.  </center>
-       <br>
-       <center  style="color:#800517; font-size:6pt;"> Modified from 2048 by Gabriele Cirulli and DOGE2048 by Tiny Mammals. Characters belong to Michael Dante DiMartino and Bryan Konietzko.</center>
    #800517 url('../img/212/doge-derp-212.gif');
     background-size: cover;    
     font-size: 30px; }
@@ -845,60 +803,43 @@ hr {
     transform: translate(202px, 202px); }
 
     .tile.tile-2 .tile-inner {
-      background: <div class="info">
-       <center style="color:#c7a317; font-size:9pt;">Use arrow keys to combine similar images. Unlock the final image and you win.  </center>
-       <br>
-       <center  style="color:#800517; font-size:6pt;"> Modified from 2048 by Gabriele Cirulli and DOGE2048 by Tiny Mammals. Characters belong to Michael Dante DiMartino and Bryan Konietzko.</center>
+      background:
    #800517 url('../Tiles/2.jpg');
       background-size: cover;
       box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
     
     .tile.tile-4 .tile-inner {
-      background: <div class="info">
-       <center style="color:#c7a317; font-size:9pt;">Use arrow keys to combine similar images. Unlock the final image and you win.  </center>
-       <br>
-       <center  style="color:#800517; font-size:6pt;"> Modified from 2048 by Gabriele Cirulli and DOGE2048 by Tiny Mammals. Characters belong to Michael Dante DiMartino and Bryan Konietzko.</center>
+      background:
    #800517 url('../Tiles/4.jpg');
       background-size: cover;    
       box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
     
     .tile.tile-8 .tile-inner {
-      background: <div class="info">
-       <center style="color:#c7a317; font-size:9pt;">Use arrow keys to combine similar images. Unlock the final image and you win.  </center>
-       <br>
-       <center  style="color:#800517; font-size:6pt;"> Modified from 2048 by Gabriele Cirulli and DOGE2048 by Tiny Mammals. Characters belong to Michael Dante DiMartino and Bryan Konietzko.</center>
+      background:
    #800517 url('../Tiles/8.jpg');
       background-size: cover;}
     
     .tile.tile-16 .tile-inner {
-      background: <div class="info">
-       <center style="color:#c7a317; font-size:9pt;">Use arrow keys to combine similar images. Unlock the final image and you win.  </center>
-       <br>
-       <center  style="color:#800517; font-size:6pt;"> Modified from 2048 by Gabriele Cirulli and DOGE2048 by Tiny Mammals. Characters belong to Michael Dante DiMartino and Bryan Konietzko.</center>
+      background: 
+
    #800517 url('../Tiles/16.jpg');
       background-size: cover;}
     
     .tile.tile-32 .tile-inner {
-      background: <div class="info">
-       <center style="color:#c7a317; font-size:9pt;">Use arrow keys to combine similar images. Unlock the final image and you win.  </center>
-       <br>
-       <center  style="color:#800517; font-size:6pt;"> Modified from 2048 by Gabriele Cirulli and DOGE2048 by Tiny Mammals. Characters belong to Michael Dante DiMartino and Bryan Konietzko.</center>
+      background: 
+
    #800517 url('../Tiles/32.jpg');
       background-size: cover;}
     
     .tile.tile-64 .tile-inner {
-      background: <div class="info">
-       <center style="color:#c7a317; font-size:9pt;">Use arrow keys to combine similar images. Unlock the final image and you win.  </center>
-       <br>
-       <center  style="color:#800517; font-size:6pt;"> Modified from 2048 by Gabriele Cirulli and DOGE2048 by Tiny Mammals. Characters belong to Michael Dante DiMartino and Bryan Konietzko.</center>
+      background: 
+
    #800517 url('../Tiles/64.jpg');
       background-size: cover;}
     
     .tile.tile-128 .tile-inner {
-      background: <div class="info">
-       <center style="color:#c7a317; font-size:9pt;">Use arrow keys to combine similar images. Unlock the final image and you win.  </center>
-       <br>
-       <center  style="color:#800517; font-size:6pt;"> Modified from 2048 by Gabriele Cirulli and DOGE2048 by Tiny Mammals. Characters belong to Michael Dante DiMartino and Bryan Konietzko.</center>
+      background: 
+
    #800517 url('../Tiles/128.jpg');
       background-size: cover;
       box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
@@ -908,10 +849,8 @@ hr {
           font-size: 25px; } }
     .tile.tile-256 .tile-inner {
 
-      background: <div class="info">
-       <center style="color:#c7a317; font-size:9pt;">Use arrow keys to combine similar images. Unlock the final image and you win.  </center>
-       <br>
-       <center  style="color:#800517; font-size:6pt;"> Modified from 2048 by Gabriele Cirulli and DOGE2048 by Tiny Mammals. Characters belong to Michael Dante DiMartino and Bryan Konietzko.</center>
+      background: 
+
    #800517 url('../Tiles/256.jpg');
       background-size: cover;
       box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
@@ -921,10 +860,8 @@ hr {
           font-size: 25px; } }
     .tile.tile-512 .tile-inner {
 
-      background: <div class="info">
-       <center style="color:#c7a317; font-size:9pt;">Use arrow keys to combine similar images. Unlock the final image and you win.  </center>
-       <br>
-       <center  style="color:#800517; font-size:6pt;"> Modified from 2048 by Gabriele Cirulli and DOGE2048 by Tiny Mammals. Characters belong to Michael Dante DiMartino and Bryan Konietzko.</center>
+      background: 
+
    #800517 url('../Tiles/512.jpg');
       background-size: cover;
       box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
@@ -933,10 +870,8 @@ hr {
         .tile.tile-512 .tile-inner {
           font-size: 25px; } }
     .tile.tile-1024 .tile-inner {
-      background: <div class="info">
-       <center style="color:#c7a317; font-size:9pt;">Use arrow keys to combine similar images. Unlock the final image and you win.  </center>
-       <br>
-       <center  style="color:#800517; font-size:6pt;"> Modified from 2048 by Gabriele Cirulli and DOGE2048 by Tiny Mammals. Characters belong to Michael Dante DiMartino and Bryan Konietzko.</center>
+      background: 
+
    #800517 url('../Tiles/1024.jpg');
       background-size: cover;
       box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
@@ -946,10 +881,8 @@ hr {
           font-size: 15px; } }
     .tile.tile-2048 .tile-inner {
 
-      background: <div class="info">
-       <center style="color:#c7a317; font-size:9pt;">Use arrow keys to combine similar images. Unlock the final image and you win.  </center>
-       <br>
-       <center  style="color:#800517; font-size:6pt;"> Modified from 2048 by Gabriele Cirulli and DOGE2048 by Tiny Mammals. Characters belong to Michael Dante DiMartino and Bryan Konietzko.</center>
+      background: 
+
    #800517 url('../Tiles/2048.jpg');
       background-size: cover;
       box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
@@ -959,10 +892,8 @@ hr {
           font-size: 15px; } }
     .tile.tile-super .tile-inner {
 
-      background: <div class="info">
-       <center style="color:#c7a317; font-size:9pt;">Use arrow keys to combine similar images. Unlock the final image and you win.  </center>
-       <br>
-       <center  style="color:#800517; font-size:6pt;"> Modified from 2048 by Gabriele Cirulli and DOGE2048 by Tiny Mammals. Characters belong to Michael Dante DiMartino and Bryan Konietzko.</center>
+      background: 
+
    #800517 url('../img/114/doge-derp-114.gif');
       background-size: cover;    
       font-size: 30px; }
