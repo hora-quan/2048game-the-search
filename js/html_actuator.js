@@ -3,10 +3,18 @@ function HTMLActuator() {
   this.scoreContainer   = document.querySelector(".score-container");
   this.bestContainer    = document.querySelector(".best-container");
   this.messageContainer = document.querySelector(".game-message");
-  this.info             = document.querySelector(".info");
+  this.info             = document.querySelector(".info");  
+  this.dogeSays = document.querySelector(".doge-says");
+  this.adSpace = document.querySelector(".shout-out");
 
   this.score = 0;
 }
+
+var dogeSayings = [
+]
+
+var ads = [
+]
 
 HTMLActuator.prototype.actuate = function (grid, metadata) {
   var self = this;
@@ -27,16 +35,16 @@ HTMLActuator.prototype.actuate = function (grid, metadata) {
 
     if (metadata.terminated) {
       if (metadata.over) {
-        self.message(false);
+        self.message(false); // You lose
       } else if (metadata.won) {
-        self.message(true);
+        self.message(true); // You win!
       }
     }
 
   });
 };
 
-
+// Continues the game (both restart and keep playing)
 HTMLActuator.prototype.continue = function () {
   this.clearMessage();
 };
@@ -55,6 +63,7 @@ HTMLActuator.prototype.addTile = function (tile) {
   var position  = tile.previousPosition || { x: tile.x, y: tile.y };
   var positionClass = this.positionClass(position);
 
+  // We can't use classlist because it somehow glitches when replacing classes
   var classes = ["tile", "tile-" + tile.value, positionClass];
 
   if (tile.value > 2048) classes.push("tile-super");
@@ -105,6 +114,7 @@ HTMLActuator.prototype.positionClass = function (position) {
 
 HTMLActuator.prototype.updateScore = function (score) {
   this.clearContainer(this.scoreContainer);
+  this.clearContainer(this.dogeSays)
 
   var difference = score - this.score;
   this.score = score;
@@ -117,6 +127,7 @@ HTMLActuator.prototype.updateScore = function (score) {
     addition.textContent = "+" + difference;
     this.scoreContainer.appendChild(addition);
     
+    var message = dogeSayings[Math.floor(Math.random() * dogeSayings.length)]
     var messageElement = document.createElement("p");
     messageElement.textContent = message
     var left = 'left:' + Math.round(Math.random() * 80) + '%;'
@@ -124,6 +135,10 @@ HTMLActuator.prototype.updateScore = function (score) {
     var color = 'color: rgb(' + Math.round(Math.random() * 255) + ', ' + Math.round(Math.random() * 255) + ', ' + Math.round(Math.random() * 255) + ');'
     var styleString = left + top + color
     messageElement.setAttribute('style', styleString);
+    this.dogeSays.appendChild(messageElement);
+    if (difference > 4) {
+     this.adSpace.innerHTML = ads[Math.floor(Math.random() * ads.length)]
+    }
     
   }
 };
@@ -133,8 +148,8 @@ HTMLActuator.prototype.updateBestScore = function (bestScore) {
 };
 
 HTMLActuator.prototype.message = function (won) {
-  var type    = true ? "game-won" : "game-over";
-  var message = true ? "Victory!" : "Filthy peasant.";
+  var type    = won ? "game-won" : "game-over";
+  var message = won ? "Victory!" : "Filthy peasant.";
 
   this.messageContainer.classList.add(type);
   this.messageContainer.getElementsByTagName("p")[0].textContent = message;
