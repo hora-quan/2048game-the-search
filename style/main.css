@@ -172,7 +172,7 @@ p {
   line-height: 1.65; }
 
 a {
-  color: #f0f;
+  color: #800517;
   font-weight: bold;
   text-decoration: underline;
   cursor: pointer; }
@@ -386,33 +386,33 @@ hr {
     z-index: 10;
     font-size: 55px; }
   .tile.tile-2 .tile-inner {
-    background: #f0f url('../Tiles/2.jpg');
+    background: #800517 url('../Tiles/2.jpg');
     background-size: cover;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
     
   .tile.tile-4 .tile-inner {
-    background: #f0f url('../Tiles/4.jpg');
+    background: #800517 url('../Tiles/4.jpg');
     background-size: cover;    
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
     
   .tile.tile-8 .tile-inner {
-    background: #f0f url('../Tiles/8.jpg');
+    background: #800517 url('../Tiles/8.jpg');
     background-size: cover;}
     
   .tile.tile-16 .tile-inner {
-    background: #f0f url('../Tiles/16.jpg');
+    background: #800517 url('../Tiles/16.jpg');
     background-size: cover;}
     
   .tile.tile-32 .tile-inner {
-    background: #f0f url('../Tiles/32.jpg');
+    background: #800517 url('../Tiles/32.jpg');
     background-size: cover;}
     
   .tile.tile-64 .tile-inner {
-    background: #f0f url('../Tiles/64.jpg');
+    background: #800517 url('../Tiles/64.jpg');
     background-size: cover;}
     
   .tile.tile-128 .tile-inner {
-    background: #f0f url('../Tiles/128.jpg');
+    background: #800517 url('../Tiles/128.jpg');
     background-size: cover;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
     font-size: 45px; }
@@ -421,7 +421,7 @@ hr {
         font-size: 25px; } }
   .tile.tile-256 .tile-inner {
 
-    background: #f0f url('../Tiles/256.jpg');
+    background: #800517 url('../Tiles/256.jpg');
     background-size: cover;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
     font-size: 45px; }
@@ -430,7 +430,7 @@ hr {
         font-size: 25px; } }
   .tile.tile-512 .tile-inner {
 
-    background: #f0f url('../Tiles/512.jpg');
+    background: #800517 url('../Tiles/512.jpg');
     background-size: cover;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
     font-size: 45px; }
@@ -438,7 +438,7 @@ hr {
       .tile.tile-512 .tile-inner {
         font-size: 25px; } }
   .tile.tile-1024 .tile-inner {
-    background: #f0f url('../Tiles/1024.jpg');
+    background: #800517 url('../Tiles/1024.jpg');
     background-size: cover;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
     font-size: 35px; }
@@ -447,7 +447,7 @@ hr {
         font-size: 15px; } }
   .tile.tile-2048 .tile-inner {
 
-    background: #f0f url('../Tiles/2048.jpg');
+    background: #800517 url('../Tiles/2048.jpg');
     background-size: cover;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 35px; }
@@ -456,7 +456,7 @@ hr {
         font-size: 15px; } }
   .tile.tile-super .tile-inner {
 
-    background: #f0f url('../Tile/2.jpg');
+    background: #800517 url('../Tile/2.jpg');
     background-size: cover;    
     font-size: 30px; }
     @media screen and (max-width: 480px) {
@@ -765,33 +765,33 @@ hr {
     transform: translate(202px, 202px); }
 
     .tile.tile-2 .tile-inner {
-      background: #f0f url('../Tiles/2.jpg');
+      background: #800517 url('../Tiles/2.jpg');
       background-size: cover;
       box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
     
     .tile.tile-4 .tile-inner {
-      background: #f0f url('../Tiles/4.jpg');
+      background: #800517 url('../Tiles/4.jpg');
       background-size: cover;    
       box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
     
     .tile.tile-8 .tile-inner {
-      background: #f0f url('../Tiles/8.jpg');
+      background: #800517 url('../Tiles/8.jpg');
       background-size: cover;}
     
     .tile.tile-16 .tile-inner {
-      background: #f0f url('../Tiles/16.jpg');
+      background: #800517 url('../Tiles/16.jpg');
       background-size: cover;}
     
     .tile.tile-32 .tile-inner {
-      background: #f0f url('../Tiles/32.jpg');
+      background: #800517 url('../Tiles/32.jpg');
       background-size: cover;}
     
     .tile.tile-64 .tile-inner {
-      background: #f0f url('../Tiles/64.jpg');
+      background: #800517 url('../Tiles/64.jpg');
       background-size: cover;}
     
     .tile.tile-128 .tile-inner {
-      background: #f0f url('../Tiles/128.jpg');
+      background: #800517 url('../Tiles/128.jpg');
       background-size: cover;
       box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
       font-size: 45px; }
@@ -800,7 +800,7 @@ hr {
           font-size: 25px; } }
     .tile.tile-256 .tile-inner {
 
-      background: #f0f url('../Tiles/256.jpg');
+      background: #800517 url('../Tiles/256.jpg');
       background-size: cover;
       box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
       font-size: 45px; }
@@ -809,7 +809,7 @@ hr {
           font-size: 25px; } }
     .tile.tile-512 .tile-inner {
 
-      background: #f0f url('../Tiles/512.jpg');
+      background: #800517 url('../Tiles/512.jpg');
       background-size: cover;
       box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
       font-size: 45px; }
@@ -817,7 +817,7 @@ hr {
         .tile.tile-512 .tile-inner {
           font-size: 25px; } }
     .tile.tile-1024 .tile-inner {
-      background: #f0f url('../Tiles/1024.jpg');
+      background: #800517 url('../Tiles/1024.jpg');
       background-size: cover;
       box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
       font-size: 35px; }
@@ -826,7 +826,7 @@ hr {
           font-size: 15px; } }
     .tile.tile-2048 .tile-inner {
 
-      background: #f0f url('../Tiles/2048.jpg');
+      background: #800517 url('../Tiles/2048.jpg');
       background-size: cover;
       box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
       font-size: 35px; }
@@ -835,7 +835,7 @@ hr {
           font-size: 15px; } }
     .tile.tile-super .tile-inner {
 
-      background: #f0f url('../Tiles/2.jpg');
+      background: #800517 url('../Tiles/2.jpg');
       background-size: cover;    
       font-size: 30px; }
       @media screen and (max-width: 480px) {
