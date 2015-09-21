@@ -221,7 +221,9 @@ GameManager.prototype.findFarthestPosition = function (cell, vector) {
 };
 
 GameManager.prototype.movesAvailable = function () {
-  return this.grid.cellsAvailable() || this.tileMatchesAvailable();
+  console.log("Cells available: " + this.grid.cellsAvailable());
+  console.log("Matches available: " + this.tileMatchesAvailable());
+  return (this.grid.cellsAvailable() || this.tileMatchesAvailable());
 };
 
 // Check for available matches between tiles (more expensive check)

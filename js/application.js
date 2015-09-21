@@ -5,17 +5,17 @@ window.requestAnimationFrame(function () {
 
 
     var imageList = [
-        "Tiles/2.png",
-        "Tiles/4.png",
-        "Tiles/8.png",
-        "Tiles/16.png",
-        "Tiles/32.png",
-        "Tiles/64.png",
-        "Tiles/128.png",
-        "Tiles/256.png",
-        "Tiles/512.png",
-        "Tiles/1024.png",
-        "Tiles/2056.png",
+        "Tiles/2.jpg",
+        "Tiles/4.jpg",
+        "Tiles/8.jpg",
+        "Tiles/16.jpg",
+        "Tiles/32.jpg",
+        "Tiles/64.jpg",
+        "Tiles/128.jpg",
+        "Tiles/256.jpg",
+        "Tiles/512.jpg",
+        "Tiles/1024.jpg",
+        "Tiles/2048.jpg",
     ];
     for(var i = 0; i < imageList.length; i++ ) 
     {

@@ -69,10 +69,6 @@ KeyboardInputManager.prototype.listen = function () {
   showInfo.addEventListener("click", this.showInfo.bind(this));
   showInfo.addEventListener("touchend", this.showInfo.bind(this));
   
-  // var hideInfo = document.querySelector(".hide-info");
-  // hideInfo.addEventListener("click", this.hideInfo.bind(this));
-  // hideInfo.addEventListener("touchend", this.hideInfo.bind(this));
-  
   
   // Listen to swipe events
   var touchStartClientX, touchStartClientY;
@@ -100,7 +96,6 @@ KeyboardInputManager.prototype.listen = function () {
     var absDy = Math.abs(dy);
 
     if (Math.max(absDx, absDy) > 10) {
-      // (right : left) : (down : up)
       self.emit("move", absDx > absDy ? (dx > 0 ? 1 : 3) : (dy > 0 ? 2 : 0));
     }
   });
