@@ -1,4 +1,4 @@
-html, body {
+html {
   margin: 0;
   padding: 0;
   background: #000000;
@@ -7,6 +7,11 @@ html, body {
 }
 
 body {
+  margin: 0;
+  padding: 0;
+  background: #000000;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 18px;
   margin: 20px 0 0 0; 
 }
 
@@ -23,7 +28,7 @@ body {
 
 .modal{
 	background: #000;
-    border-radius: 3px;
+  border-radius: 3px;
 	width:300px;
 	margin-top:100px;
 	margin-left: auto;
@@ -39,28 +44,6 @@ body {
   content: "";
   display: block;
   clear: both; }
-
-h1.title {
-  font-size: 56px;
-  font-weight: bold;
-  margin: 0;
-  display: block;
-  float: left; 
-}
-
-  
-.footer > div{
-    display:inline-block !important;
-    width: auto !important;
-    overflow:hidden;
-}
-  
-.footer{
-    width:265px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align:center;
-}
 
 @-webkit-keyframes move-up {
   0% {
@@ -123,13 +106,7 @@ h1.title {
   float: right;
   text-align: right; }
   
-.game-container 
-  .doge-says {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 100;
-  }
+.game-container
     
   .game-container .info {
     display: none;
@@ -616,19 +593,16 @@ hr {
 
 
 @media screen and (max-width: 480px) {
-  html, body {
+  html {
     font-size: 15px; }
 
   body {
+    font-size: 15px;
     margin: 20px 0;
     padding: 0 20px; }
 
   .modal{
 	width:280px;}
-
-  h1.title {
-    font-size: 25px;
-    margin-top: 15px; }
 
   .container {
     width: 280px;
@@ -645,7 +619,7 @@ hr {
   .game-explanation {
     display:none;}
     
-  .shout-out, .game-explanation{
+  .game-explanation{
     margin-top:10px;
     height:0;
     padding-top:10px;
@@ -878,10 +852,8 @@ hr {
         .tile.tile-super .tile-inner {
           font-size: 10px; } }
 
-
     .footer{
       width:188px;}
-
 
     .game-container .info p {
       font-size: 12px;
@@ -893,7 +865,6 @@ hr {
 
   .tile .tile-inner {
     font-size: 35px; }
-
 
   .game-message p {
     font-size: 30px !important;
