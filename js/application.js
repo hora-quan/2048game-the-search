@@ -16,6 +16,7 @@ window.requestAnimationFrame(function () {
         "Tiles/512.jpg",
         "Tiles/1024.jpg",
         "Tiles/2048.jpg",
+        "Tiles/4096.jpg"
     ];
     for(var i = 0; i < imageList.length; i++ ) 
     {

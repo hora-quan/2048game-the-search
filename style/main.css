@@ -457,6 +457,14 @@ hr {
     @media screen and (max-width: 480px) {
       .tile.tile-2048 .tile-inner {
         font-size: 15px; } }
+.tile.tile-4096 .tile-inner {
+    background: #800517 url('../Tiles/4096.jpg');
+    background-size: cover;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
+    font-size: 35px; }
+    @media screen and (max-width: 480px) {
+      .tile.tile-4096 .tile-inner {
+        font-size: 15px; } }
   .tile.tile-super .tile-inner {
    #800517 url('../img/212/doge-derp-212.gif');
     background-size: cover;    
@@ -843,6 +851,14 @@ hr {
       font-size: 35px; }
       @media screen and (max-width: 480px) {
         .tile.tile-2048 .tile-inner {
+          font-size: 15px; } }
+    .tile.tile-4096 .tile-inner {
+      background:  #800517 url('../Tiles/4096.jpg');
+      background-size: cover;
+      box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
+      font-size: 35px; }
+      @media screen and (max-width: 480px) {
+        .tile.tile-4096 .tile-inner {
           font-size: 15px; } }
     .tile.tile-super .tile-inner {
       background:  #800517 url('../img/114/doge-derp-114.gif');
